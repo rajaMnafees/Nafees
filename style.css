@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: peachpuff;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin :10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+        color: red;
+}
+nav h1{
+    font-size: 30px;
+}
+#low{
+    margin-left:8% ;
+    margin-top: 12%;
+    height: 150px;
+   
+}
+#low h1{
+    font-size:50px ;
+    color:#212121 ;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+#low p{
+    color: #555;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+img {
+    
+    position: relative;
+    bottom: 200px;
+    left: 1000px;
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.ghicon{
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+}
+.twicon{
+    font-size: 30px;
+    margin-left: 10px;
+    color:rgb(9, 88, 192);
+}
+.liicon{
+    font-size: 30px;
+    margin-left: 10px;
+    color:rgb(9, 88, 192);
+}
+.eicon{
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(148, 133, 110);
+
+}
+.icon a:hover{
+    color:darkblue;
+}
+.butt{
+    margin-top: 100px;
+    height: 40px;
+    width: 150px;
+    background-color:black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.butt:hover{
+    background-color: red;
+    color: #000;
+}
+/* @media screen and (max-width:1039px)
+    {
+        nav{
+            font-size:5px ;
+        }
+    } */
+
+    
